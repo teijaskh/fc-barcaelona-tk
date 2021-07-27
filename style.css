@@ -1,3 +1,9 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+
+
+
 /* HEADER BACKGROUND */
 
 .header-bg img{
@@ -13,5 +19,79 @@
 }
 
 .shooting-man img:hover{
-    transform: rotate(-40deg);
+    transform: rotate(-20deg);
 }
+
+.navtab ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.navtab ul li a{
+    /* list-style: none; */
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 12%;
+}
+
+.navtab ul li a:hover{
+    background-color: #E02C6D;
+}
+
+.navtab ul{
+    display: flex;
+    gap: 36px;
+}
+
+#logins{
+    background-color: #E02C6D;
+    padding: 13px 40px;
+    margin-right: 36px;
+    margin-top: 0px;
+    color: white;
+}
+
+#logins a{
+    text-decoration: none;
+    color: white;
+}
+
+#logins:hover{
+    background-color: #ff005d;
+}
+.menubar{
+    position: absolute;
+    width: 1160px;
+    height: 44px;
+    left: 156px;
+    top: 42px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.63) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-text{
+    position: absolute;
+width: 485px;
+height: 230px;
+left: 156px;
+top: 207px;
+
+font-family: 'Lexend', sans-serif;
+color: whitesmoke;
+font-size: 4em;
+font-weight: 700;
+
+animation: skew 3s infinite;
+transform: skew(20deg);
+animation-direction: alternate;
+
+}
+@keyframes skew {
+    0% {
+      transform: skewX(20deg);
+    }
+    100% {
+      transform: skewX(-20deg);
+    }
+  }
