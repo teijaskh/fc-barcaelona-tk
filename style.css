@@ -1,0 +1,17 @@
+/* HEADER BACKGROUND */
+
+.header-bg img{
+    height: 677px;
+    width: 100%;
+}
+
+.shooting-man img{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    height: 477px;
+}
+
+.shooting-man img:hover{
+    transform: rotate(-40deg);
+}
