@@ -60,9 +60,10 @@
 }
 .menubar{
     position: absolute;
-    width: 1160px;
+
     height: 44px;
-    left: 156px;
+    left: 20%;
+    right:20%;
     top: 42px;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238, 174, 202, 0.63) 0%, rgba(148,187,233,1) 100%);
@@ -72,19 +73,19 @@
 
 .intro-text{
     position: absolute;
-width: 485px;
-height: 230px;
-left: 156px;
-top: 207px;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
 
-font-family: 'Lexend', sans-serif;
-color: whitesmoke;
-font-size: 4em;
-font-weight: 700;
+    font-family: 'Lexend', sans-serif;
+    color: whitesmoke;
+    font-size: 4em;
+    font-weight: 700;
 
-animation: skew 3s infinite;
-transform: skew(20deg);
-animation-direction: alternate;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
 
 }
 @keyframes skew {
