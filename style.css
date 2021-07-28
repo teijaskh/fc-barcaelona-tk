@@ -88,10 +88,12 @@ body p{
     left: 20%;
     right:20%;
     top: 42px;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 0.63) 0%, rgba(148,187,233,1) 100%);
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.63) 0%, rgba(148,187,233,1) 100%); */
     display: flex;
     justify-content: space-between;
+
+    font-size: 1.1rem;
 }
 
 .intro-text{
