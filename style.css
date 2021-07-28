@@ -1,7 +1,16 @@
 /* FONT IMPORT */
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/* UTILITIES */
 
+body{
+    font-family: 'Lexend', sans-serif;
+}
+
+body p{
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 /* HEADER BACKGROUND */
@@ -14,10 +23,11 @@
 
 .shooting-man img{
     position: absolute;
-    top: 100px;
+    top: 150px;
     right: 100px;
     height: 477px;
 }
+
 
 .shooting-man img:hover{
     transform: rotate(-20deg);
@@ -59,6 +69,18 @@
 #logins:hover{
     background-color: #ff005d;
 }
+
+.watch-btn {
+    background-color: #E02C6D;
+    color: whitesmoke;
+}
+
+#watcha a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
 .menubar{
     position: absolute;
 
@@ -111,6 +133,7 @@
       margin: auto;
       column-gap: 30px;
       row-gap: 30px;
+      margin-bottom: 185px;
   }
 
   .players h2{
@@ -131,3 +154,40 @@
       width: 300px;      
       height: 256px;
   }
+
+
+
+  /* HONOURS */
+  .honours {
+      display: flex;
+      width: 1100px;
+      margin: auto;
+      justify-content: center;
+  }
+
+  .honours h1{
+    background: rgb(36,29,230);
+    background: linear-gradient(90deg, rgba(36,29,230,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: whitesmoke;
+  }
+
+  .honour-description {
+    width: 466px;
+    height: 309px;
+  }
+
+  .honour-photo img {
+    width: 567px;
+    height: 427px;
+  }
+
+ button a {
+     text-decoration: none;
+     color: whitesmoke;
+ }
+
+ button {
+     background-color: #E02C6D;
+     color: whitesmoke;
+     padding: 15px;
+ }
