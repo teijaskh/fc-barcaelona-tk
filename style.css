@@ -290,3 +290,77 @@ footer .containerf {
 .icons h2 {
     text-align: center;
 }
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 688px) {
+
+    .navtab {
+        display: none;
+    }
+
+    .header-bg {
+        width: 100%;
+    }
+    .intro-text {
+        font-size: 1.2em;
+        left: 60px;
+        top: 150px;
+        width: 70%;
+    }
+
+    .shooting-man img {
+        left: 25px;
+        width: 90%;
+        height: 50%;
+        top: 300px;
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fcbarcelona{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .trophy {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .honours {
+        flex-direction: column;
+    }
+    .honours img {
+        width: 30%;
+    }
+
+    .honours p{
+        width: 75%;
+    }
+    .honours h1{
+        width: 70%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer .containerf {
+        align-items: flex-start;
+    }
+
+    .icons h2 {
+        width: 70%;
+        text-align: center;
+    }
+
+    .icons p{
+        width: 70%;
+        text-align: center;
+    }
+}
