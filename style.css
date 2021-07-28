@@ -196,9 +196,11 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
 
 
 
+ /* PARTNERS */
+
 .fcbarcelona{
-    width: 1000px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
  .fcbarcelona img{
@@ -206,35 +208,19 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
      margin-right: 6rem;
  }
 
- /* FOOTER */
+ /* PARTNERS END */
 
- footer {
-     margin-top: 50px;
-    background-color: #171733;
-    
- }
-
- footer .containerf {
-    width: 1000px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-
- .fab {
+ section h1 {
+     text-align: center;
      color: whitesmoke;
- }
+     background: rgb(36,29,230);
+    background: linear-gradient(90deg, rgba(36,29,230,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 
- .icons p {
-     color: whitesmoke;
  }
-
 
 
  /* TROPHY */
  .trophy {
-     margin-top: 50px;
      display: flex;
      column-gap: 30px;
      justify-content: space-evenly;
@@ -246,7 +232,36 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
  }
  
  .trophuwins h1 {
-     color: #E02C6D;
+     color: whitesmoke;
      text-align: center;
  }
 
+
+
+
+ /* FOOTER */
+
+ footer {
+    margin-top: 50px;
+   background-color: #171733;
+}
+
+footer .containerf {
+   width: 1000px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.fab {
+    color: whitesmoke;
+}
+
+.icons p {
+    color: whitesmoke;
+}
+
+.icons h2 {
+    text-align: center;
+}
